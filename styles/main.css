@@ -1,0 +1,20 @@
+a {
+    color:slategray;
+}
+
+#emphasis {
+    color:darkred;
+}
+
+#active{
+    background-color: darkblue;
+    color: white;
+}
+
+.room {
+    border: 1px solid olive;
+}
+
+.product {
+    border: 5px;
+}
