@@ -1,5 +1,5 @@
 body{
-    background-image: url("/wwr/images/backdrop.jpeg");
+    background-color: white;
 }
 
 a {
@@ -26,10 +26,11 @@ nav a:hover{
 
 h1{
     text-align: center;
+    background-color: #D1603D;
 }
 
 h2, p{
-    color: #D1603D;
+    color: #2B3A67;
 }
 
 #emphasis {
