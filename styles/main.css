@@ -1,20 +1,56 @@
+body{
+    background-image: url("/wwr/images/backdrop.jpeg");
+}
+
 a {
     color:slategray;
+    text-decoration: none;
+}
+
+/** {
+    border: 1px solid darkred; 
+}*/
+nav{
+    text-align: center;
+}
+
+nav a{
+    text-decoration: none;
+    display: inline-block;
+    color: #7699D4;
+}
+nav a:hover{
+    text-decoration:solid;
+    background-color: lightgrey;
+}
+
+h1{
+    text-align: center;
+}
+
+h2, p{
+    color: #D1603D;
 }
 
 #emphasis {
     color:darkred;
 }
 
-#active{
-    background-color: darkblue;
-    color: white;
-}
-
-.room {
-    border: 1px solid olive;
-}
-
 .product {
     border: 5px;
+}
+
+img {
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+}
+
+h2{
+    text-align: center;
+}
+p{
+    text-align: center;
+    font-size: 1.5em;
+    line-height: 1.4em;
 }

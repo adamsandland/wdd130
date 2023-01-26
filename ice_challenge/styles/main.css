@@ -1,0 +1,53 @@
+body{
+    background-color: pink;
+}
+h1, h2, p, li{
+    font-family: Arial;
+}
+header{
+    display: block;
+    inline-size: 350px;
+    writing-mode: horizontal-tb;
+    margin: 0 auto;
+}
+main{
+    display: block;
+    inline-size: 300px;
+    writing-mode: horizontal-tb;
+    margin: 0 auto;
+}
+footer{
+    display: block;
+    inline-size: 300px;
+    writing-mode: horizontal-tb;
+    margin: 0 auto;
+}
+* {
+    text-align: center;
+    /*border: 1px solid white;*/
+}
+
+main li{
+    text-align:  left;
+    list-style: none;
+    font-size: 0.8em;
+}
+main h2{
+    font-family: 'Times New Roman', Times, serif;
+}
+header, main h2{
+    color: white;
+}
+header p{
+    font-size: 0.6em;
+}
+header h2{
+    font-size: 0.8em;
+}
+
+img {
+    width: 120px;
+}
+h1:hover{
+    color: black;
+}
