@@ -56,3 +56,10 @@ main{
     margin-top: 5%;
     margin-bottom: 5%;
 }
+footer a{
+    padding: 1%;
+    margin: 5%;
+    color:#7699D4;
+    background-color: white;
+    border-radius: 5%;
+}
