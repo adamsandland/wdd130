@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    font-family: Roboto;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+header a{
+    text-decoration: none;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-top: 50px;
+    border-radius: 20%;
+    color: grey;
+}
+header a:hover{
+    background-color: grey;
+    color: lightgrey;
+}
+h2{
+    text-align: center;
+    margin: 5%;
+    color: grey;
+}

@@ -15,7 +15,8 @@ body{
 }
 .buttons{
     background-color: grey;
-    width: 100%
+    width: 100%;
+    margin: -5px;
 }
 
 .button_img{

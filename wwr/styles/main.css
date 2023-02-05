@@ -1,6 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 h1, h2, a{
     font-family: Roboto;
+    text-decoration: none;
+    color:#7699D4
+}
+a{
+    padding: 1%;
+    margin: 5%;
+    color:white;
+    background-color: #7699D4;
+    border-radius: 5%;
 }
 
 header nav a{
@@ -37,4 +46,13 @@ body div{
 main{
     margin: 0 auto;
     text-align: center;
+}
+.home-title {
+    font-size: 30px;
+}
+.home-grid img{
+    border-radius: 5%;
+    border: solid 5px #D1603D;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
