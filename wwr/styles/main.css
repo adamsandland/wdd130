@@ -38,9 +38,12 @@ nav a{
     background-color:#7699D4;
     color:white;
     border-radius: 1em;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: 5px;
+
 }
 nav a:hover{
-    padding: 4%;
     background-color:#D1603D;
     color:white;
 }
@@ -96,7 +99,7 @@ nav a:hover{
     display: grid;
     grid-column: 1/11;
     grid-row:4/9;
-    background-color: #D1603D;
+    background-color:#D1603D;
 }
 
 .mountains{
