@@ -9,7 +9,7 @@
 </head>
 <body> 
     <header>
-        <a class="logo_link" href="index.html"><img class="logo" width="400" src="images/logo.gif" alt="Dry Oar Logo" ></a>
+        <a id="logo_link" href="index.html"><img class="logo" width="100%" src="images/logo.gif" alt="Dry Oar Logo" ></a>
         <nav>
             <a class="Buttons"href="booking.html">Booking</a>
             <a class="Buttons"href="rentals.html">Rentals</a>
@@ -17,23 +17,28 @@
             <a class="Buttons"href="contact_info.html">Contact Us</a>
         </nav>
     </header>
-    <div>
+
+
+    <div id="hero">
         <div id="hero-box">
-            <img id="hero-img" src="images/hero.png" alt="People Enjoying Rafting">
+            <img id="hero-img" width="100%"src="images/hero.png" alt="People Enjoying Rafting">
         </div>
-        <section>
+        <section id="hero-msg">
             <h1 class="home-title">
-                Have an Adventure
+                Have an Adventure!
             </h1>
             <h4>
-            Make Memories with Dry Oar 
+                Make Memories with Dry Oar!
             </h4>
+            <div class="button-box">
+                <a class="book" href="contactus.html">Book Now</a>
+            </div>
         </section>
-        <div class="button-box">
-            <a class="book" href="contactus.html">Book Now</a>
-        </div>
+        
     </div>
-    <main class="home-grid">
+
+
+    <main id="home-grid">
         <section class="rivers-card">
             <img class="card-img" src="images/rivers.jpg" alt="river in forest">
             <img class="icon" src="images/river_icon.png" alt="river icon">
@@ -49,13 +54,18 @@
             <img class="icon" src="images/oars.png" alt="oars icon">
             <h2>Rapids</h2>
         </section>
-        <img class="mountains" src="images/mountains.jpg" alt="Misty mountains">
-        <section class="msg">
-            <h2>More Than Just The Thrill</h2>
-            <p>Enjoy the Adventure of a lifetime! Book now!</p>
-            <a class='join' href="rivers.html">Join Us</a>
-        </section>
+
+        <div id="background">
+            <img class="mountains" src="images/mountains.jpg" alt="Misty mountains">
+            <section class="msg">
+                <h2>More Than Just The Thrill</h2>
+                <p>Enjoy the Adventure of a lifetime! Book now!</p>
+                <a class='join' href="rivers.html">Join Us</a>
+            </section>
+        </div>
     </main>
+
+
     <footer>
         <p>Dry Oar &copy; 2023 - Adam Sandland</p>
         <p><a href="site-plan-rafting.html">Site Plan</a></p>
