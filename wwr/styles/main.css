@@ -154,6 +154,7 @@ footer {
     nav a {
         display: block;
         padding: 15px;
+        text-align: center;
     }
     #hero {
         margin-top: 0;
