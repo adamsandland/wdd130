@@ -94,6 +94,9 @@ nav a:hover{
     grid-row: 2;
     text-align: center;
 }
+.icon{
+    width: 20%
+}
 
 #background{
     display: grid;
