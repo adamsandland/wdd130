@@ -28,3 +28,9 @@ h2{
     margin: 5%;
     color: grey;
 }
+#splash{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    width: 500px;
+}
