@@ -1,0 +1,37 @@
+header{
+    width: 400px;
+    margin: 0 auto;
+}
+header img{
+    width: 100%;
+}
+body{
+    width: 400px;
+    background-color: whitesmoke;
+    text-align: center;
+}
+body h4{
+    color: cornflowerblue;
+    font-size: 10px;
+}
+body h2{
+    color: black;
+    font-size: 30px;
+}
+body h3{
+    color: grey;
+    font-size: 15px;
+}
+footer{
+    width: 400px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    background-color: cornflowerblue;
+}
+footer h2{
+    color: white;
+}
+footer h4{
+    color: white;;
+}

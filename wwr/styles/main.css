@@ -139,6 +139,39 @@ footer {
     align-items: center;
 }
 
+#info{
+    text-align: center;
+}
+#datepicker{
+text-align: center;
+}
+#calculator{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.person{
+    grid-column: 1;
+    text-align: center;
+}
+.inputbox{
+    grid-column: 2;
+    width: 100%;
+    text-align: center;
+}
+.equation{
+    grid-column: 3;
+    text-align: center;
+}
+.result{
+    grid-column: 4;
+}
+#total{
+    text-align: center;
+}
+.calendar{
+    border-radius: 15px;
+    margin: 30px;
+}
 
 
 
