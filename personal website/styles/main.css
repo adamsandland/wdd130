@@ -4,33 +4,98 @@
     margin: 0;
     padding: 0;
 }
+header{
+    display: grid;
+    grid-template-columns: repeat(11, 1fr);
+    grid-gap: 15px;
+    padding: 15px;
+    margin-bottom: 60px;
+    
+}
+.navButton{
+    text-decoration: none;
+    color: black;
+    background-color: lightgrey;
+    display: block;
+    border-radius: 10px;
+    text-align: center;
+    text-justify: center;
 
-a {
-    text-decoration: none;
+    height: 30px;
+    border: 15px;
 }
-header a{
-    text-decoration: none;
-    text-align: center;
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    margin-top: 50px;
-    border-radius: 20%;
-    color: grey;
+#homebutton{
+    grid-column: 1/3;
 }
-header a:hover{
-    background-color: grey;
-    color: lightgrey;
+#pricingbutton{
+    grid-column: 3/5;
 }
-h2{
-    text-align: center;
-    margin: 5%;
-    color: grey;
+#softwareinfo{
+    grid-column: 5/7;
+}
+#contact{
+    grid-column: 7/9;
+}
+#searchbar{
+    grid-column: 9/12;
+}
+.image{
+    border-radius: 15px;
+    display: block;
+    width: 100%;
+}
+
+
+
+#index_body{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 #splash{
-    display: block;
-    margin: 0 auto;
-    text-align: center;
-    width: 500px;
+    grid-column: 2/3;
 }
+.banner{
+    grid-column: 2/8;
+}
+
+
+
+
+.graphic{
+    width: 100%;
+}
+#pricing_body {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#software_body{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+
+
+
+
+
+footer{
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    grid-gap: 15px;
+    background-color: darkgrey;
+    border-radius: 15pxe;
+}
+.contactbox{
+    grid-column: 1;
+    background-color: lightgrey;
+    border-radius: 10px;
+    height: 30px;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+
+#splash{
+    width: 60%;
+}
+
