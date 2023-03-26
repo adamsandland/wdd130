@@ -4,6 +4,10 @@
     margin: 0;
     padding: 0;
 }
+a{
+    text-decoration: none;
+    color: grey;
+}
 header{
     display: grid;
     grid-template-columns: repeat(11, 1fr);
@@ -96,17 +100,62 @@ header{
 
 
 
-
 .graphic{
-    width: 100%;
+    width: 80%;
+    margin: auto;
 }
 #pricing_body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    background-color: rgb(60,60,60);
+    margin: 45px;
+    border-radius: 15px;
+    color: lightgrey;
+    text-align: center;
+    line-height: 40px;
 }
 #software_body{
     display: grid;
     grid-template-columns: 1fr 2fr;
+}
+
+#basic{
+    grid-column: 1;
+    grid-row:1;
+}
+#regular{
+    grid-column: 2;
+    grid-row:1;
+}
+#premium{
+    grid-column: 3;
+    grid-row:1;
+}
+
+#basic_details{
+    grid-column: 1;
+    grid-row:2;
+}
+#regular_details{
+    grid-column: 2;
+    grid-row:2;
+}
+#premium_details{
+    grid-column: 3;
+    grid-row:2;
+}
+
+#basic_cost{
+    grid-column: 1;
+    grid-row:3;
+}
+#regular_cost{
+    grid-column: 2;
+    grid-row:3;
+}
+#premium_cost{
+    grid-column: 3;
+    grid-row:3;
 }
 
 
@@ -135,3 +184,29 @@ footer{
     width: 60%;
 }
 
+.alert {
+    display: none;
+    padding: 20px;
+    background-color: rgb(255,120,0); /* Yellow */
+    color: white;
+    margin-bottom: 15px;
+    grid-column: 2;
+    grid-row: 2;
+  }
+  
+  /* The close button */
+  .closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  /* When moving the mouse over the close button */
+  .closebtn:hover {
+    color: black;
+  }

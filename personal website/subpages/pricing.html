@@ -8,7 +8,8 @@
     <link type="text/css" rel="stylesheet" href="../styles/main.css">
     <script src="site_interactivity.js"></script>
 </head>
-<header>
+<body>
+    <header>
     <a class="navButton" id="homebutton"href="../index.html">Home</a>
     <a class="navButton" id="pricingbutton"href="pricing.html">Pricing</a>
     <a class="navButton" id="softwareinfo"href="software.html">Our Software</a>
@@ -38,13 +39,34 @@
         <h3>Recommendations based on lifestyles or habits</h3>
     </div>
 
-    <div id="basic_cost"class="cost">$0 USD</div>
-    <div id="regular_cost"class="cost">$25 USD</div>
-    <div id="premium_cost"class="cost">$35 USD</div>
+    <a id="basic_cost"class="cost" href="#">Free ></a>
+    <a id="regular_cost"class="cost" href="#">$25 USD ></a>
+    <a id="premium_cost"class="cost" href="#">$35 USD ></a>
+    
+    <div class="alert">
+        <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+        Attention! You are about to leave our page to go to checkout!
+        <a href="#">Go to Checkout</a>
+    </div>
+    
+    
 </main>
 <footer>
     <a class="contactbox"href="#">(650)123-4567</a>
     <a class="contactbox"href="#">Onn Facebook</a>
     <a class="contactbox"href="#">customerservice@onntarget.com</a>
 </footer>
+    <script>
+        let link1=document.querySelector("#basic_cost");
+        let link2=document.querySelector("#regular_cost");
+        let link3=document.querySelector("#premium_cost");
+        let alert=document.querySelector(".alert");
+        link1.addEventListener("click", showAlert);
+        link2.addEventListener("click", showAlert);
+        link3.addEventListener("click", showAlert);
+        function showAlert(){
+            alert.style.display = "block";
+        }
+    </script>
+</body>
 </html>
