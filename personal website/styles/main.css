@@ -114,10 +114,6 @@ header{
     text-align: center;
     line-height: 40px;
 }
-#software_body{
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-}
 
 #basic{
     grid-column: 1;
@@ -157,6 +153,56 @@ header{
     grid-column: 3;
     grid-row:3;
 }
+
+
+#software_body{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    grid-gap: 100px;
+    padding: 15px;
+}
+
+#messy_desk_graphic{
+    grid-column: 1;
+    grid-row: 1;
+}
+#messy_desk_text{
+    grid-column: 2/4;
+    grid-row: 1;
+}
+#chat_graphic{
+    grid-column: 3;
+    grid-row: 2;
+}
+#chat_text{
+    grid-column: 1/3;
+    grid-row: 2;
+}
+#schedule_graphic{
+    grid-column: 1;
+    grid-row: 3;
+}
+#schedule_text{
+    grid-column: 2/4;
+    grid-row: 3;
+}
+#logo_graphic{
+    grid-column: 3;
+    grid-row: 4;
+}
+#logo_text{
+    grid-column: 1/3;
+    grid-row: 4;
+}
+
+#contact_body{
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+
 
 
 
