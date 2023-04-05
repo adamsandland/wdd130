@@ -10,10 +10,10 @@ a{
 }
 header{
     display: grid;
-    grid-template-columns: repeat(11, 1fr);
+    grid-template-columns: auto repeat(4, 1fr);
     grid-gap: 15px;
     padding: 15px;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
     
 }
 .navButton{
@@ -26,22 +26,9 @@ header{
     text-justify: center;
 
     padding: 10px;
-    border: 15px;
 }
 #homebutton{
-    grid-column: 1/3;
-}
-#pricingbutton{
-    grid-column: 3/5;
-}
-#softwareinfo{
-    grid-column: 5/7;
-}
-#contact{
-    grid-column: 7/9;
-}
-#searchbar{
-    grid-column: 9/12;
+    width: 20px;
 }
 .image{
     border-radius: 15px;
@@ -160,40 +147,41 @@ header{
     grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
     align-items: center;
-    grid-gap: 100px;
-    padding: 15px;
+    padding: 50px;
 }
-
+.graphic{
+    margin: 50px;
+}
 #messy_desk_graphic{
-    grid-column: 1;
+    grid-column: 1/3;
     grid-row: 1;
 }
 #messy_desk_text{
-    grid-column: 2/4;
+    grid-column: 3;
     grid-row: 1;
 }
 #chat_graphic{
-    grid-column: 3;
+    grid-column: 2/4;
     grid-row: 2;
 }
 #chat_text{
-    grid-column: 1/3;
+    grid-column: 1;
     grid-row: 2;
 }
 #schedule_graphic{
-    grid-column: 1;
+    grid-column: 1/3;
     grid-row: 3;
 }
 #schedule_text{
-    grid-column: 2/4;
+    grid-column: 3;
     grid-row: 3;
 }
 #logo_graphic{
-    grid-column: 3;
+    grid-column: 2/4;
     grid-row: 4;
 }
 #logo_text{
-    grid-column: 1/3;
+    grid-column: 1;
     grid-row: 4;
 }
 
@@ -211,12 +199,11 @@ header{
 
 footer{
     display: grid;
-    grid-template-columns: auto 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     background-color: darkgrey;
     border-radius: 15px;
 }
 .contactbox{
-    grid-column: 1;
     background-color: lightgrey;
     border-radius: 10px;
     margin: 7px;
